@@ -1,5 +1,5 @@
 {
-  "item.bageksdeco.fencelogo": "Firework Logo",
+  "item.bageksdeco.fencelogo": "Fence Logo",
 
   "block.bageksdeco.crossbuck_1": "Oak Crossbuck Fence",
   "block.bageksdeco.crossbuck_2": "Spruce Crossbuck Fence",
@@ -11,6 +11,37 @@
   "block.bageksdeco.crossbuck_8": "Mangrove Crossbuck Fence",
   "block.bageksdeco.crossbuck_9": "Crimson Crossbuck Fence",
   "block.bageksdeco.crossbuck_10": "Warped Crossbuck Fence",
+  "block.bageksdeco.crossbuck_11": "Whitewash Crossbuck Fence",
 
-  "itemGroup.bageksdecotab": "Bagek's Decoration"
+  "block.bageksdeco.crossestate_1": "Oak Crossestate Fence",
+  "block.bageksdeco.crossestate_2": "Spruce Crossestate Fence",
+  "block.bageksdeco.crossestate_3": "Birch Crossestate Fence",
+  "block.bageksdeco.crossestate_4": "Dark Oak Crossestate Fence",
+  "block.bageksdeco.crossestate_5": "Acacia Crossestate Fence",
+  "block.bageksdeco.crossestate_6": "Jungle Crossestate Fence",
+  "block.bageksdeco.crossestate_7": "Cherry Crossestate Fence",
+  "block.bageksdeco.crossestate_8": "Mangrove Crossestate Fence",
+  "block.bageksdeco.crossestate_9": "Crimson Crossestate Fence",
+  "block.bageksdeco.crossestate_10": "Warped Crossestate Fence",
+  "block.bageksdeco.crossestate_11": "Whitewash Crossestate Fence",
+
+  "block.bageksdeco.estatethree_1": "Oak estatethree Fence",
+  "block.bageksdeco.estatethree_2": "Spruce estatethree Fence",
+  "block.bageksdeco.estatethree_3": "Birch estatethree Fence",
+  "block.bageksdeco.estatethree_4": "Dark Oak estatethree Fence",
+  "block.bageksdeco.estatethree_5": "Acacia estatethree Fence",
+  "block.bageksdeco.estatethree_6": "Jungle estatethree Fence",
+  "block.bageksdeco.estatethree_7": "Cherry estatethree Fence",
+  "block.bageksdeco.estatethree_8": "Mangrove estatethree Fence",
+  "block.bageksdeco.estatethree_9": "Crimson estatethree Fence",
+  "block.bageksdeco.estatethree_10": "Warped estatethree Fence",
+  "block.bageksdeco.estatethree_11": "Whitewash estatethree Fence",
+
+  "block.bageksdeco.c1estatethree_1": "Oak Estate Corner Fence L",
+  "block.bageksdeco.c2estatethree_1": "Oak Estate Corner Fence R",
+
+  "block.bageksdeco.dblestatethree_1": "Oak Four Estate Fence ",
+  "block.bageksdeco.dblestatefour_1": "Oak Three Estate Fence ",
+
+  "itemGroup.bageksdecotab": "Bagek's Deco"
 }

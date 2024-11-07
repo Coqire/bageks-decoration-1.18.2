@@ -1,7 +1,8 @@
 package com.coqire.bageksdeco.block;
-
 import com.coqire.bageksdeco.bageksdeco;
-import com.coqire.bageksdeco.block.custom.CrossbuckFenceBlock;
+
+import com.coqire.bageksdeco.block.custom.*;
+
 import com.coqire.bageksdeco.item.DecoCreativeModeTab;
 import com.coqire.bageksdeco.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -10,6 +11,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -21,6 +23,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, bageksdeco.Mod_ID);
 
+    //CROSSBUCKS
     public static final RegistryObject<Block> CROSSBUCK_1 = registerBlock("crossbuck_1",
             () -> new CrossbuckFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
             DecoCreativeModeTab.BAGEKSDECO_TAB);
@@ -51,10 +54,132 @@ public class ModBlocks {
     public static final RegistryObject<Block> CROSSBUCK_10 = registerBlock("crossbuck_10",
             () -> new CrossbuckFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
             DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> CROSSBUCK_11 = registerBlock("crossbuck_11",
+            () -> new CrossbuckFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
 
+//CROSSESTATES
+    public static final RegistryObject<Block> CROSSESTATE_1 = registerBlock("crossestate_1",
+            () -> new CrossestateFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> CROSSESTATE_2 = registerBlock("crossestate_2",
+            () -> new CrossestateFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> CROSSESTATE_3 = registerBlock("crossestate_3",
+            () -> new CrossestateFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> CROSSESTATE_4 = registerBlock("crossestate_4",
+            () -> new CrossestateFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> CROSSESTATE_5 = registerBlock("crossestate_5",
+            () -> new CrossestateFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> CROSSESTATE_6 = registerBlock("crossestate_6",
+            () -> new CrossestateFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> CROSSESTATE_7 = registerBlock("crossestate_7",
+            () -> new CrossestateFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> CROSSESTATE_8 = registerBlock("crossestate_8",
+            () -> new CrossestateFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> CROSSESTATE_9 = registerBlock("crossestate_9",
+            () -> new CrossestateFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> CROSSESTATE_10 = registerBlock("crossestate_10",
+            () -> new CrossestateFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> CROSSESTATE_11 = registerBlock("crossestate_11",
+            () -> new CrossestateFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
 
+    //ESTATETHREE
+    public static final RegistryObject<Block> ESTATETHREE_1 = registerBlock("estatethree_1",
+            () -> new EstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ESTATETHREE_2 = registerBlock("estatethree_2",
+            () -> new EstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ESTATETHREE_3 = registerBlock("estatethree_3",
+            () -> new EstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ESTATETHREE_4 = registerBlock("estatethree_4",
+            () -> new EstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ESTATETHREE_5 = registerBlock("estatethree_5",
+            () -> new EstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ESTATETHREE_6 = registerBlock("estatethree_6",
+            () -> new EstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ESTATETHREE_7 = registerBlock("estatethree_7",
+            () -> new EstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ESTATETHREE_8 = registerBlock("estatethree_8",
+            () -> new EstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ESTATETHREE_9 = registerBlock("estatethree_9",
+            () -> new EstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ESTATETHREE_10 = registerBlock("estatethree_10",
+            () -> new EstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ESTATETHREE_11 = registerBlock("estatethree_11",
+            () -> new EstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
 
+    //ESTATEFOUR
+    public static final RegistryObject<Block> ESTATEFOUR_1 = registerBlock("estatefour_1",
+            () -> new EstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ESTATEFOUR_2 = registerBlock("estatefour_2",
+            () -> new EstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ESTATEFOUR_3 = registerBlock("estatefour_3",
+            () -> new EstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ESTATEFOUR_4 = registerBlock("estatefour_4",
+            () -> new EstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ESTATEFOUR_5 = registerBlock("estatefour_5",
+            () -> new EstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ESTATEFOUR_6 = registerBlock("estatefour_6",
+            () -> new EstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ESTATEFOUR_7 = registerBlock("estatefour_7",
+            () -> new EstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ESTATEFOUR_8 = registerBlock("estatefour_8",
+            () -> new EstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ESTATEFOUR_9 = registerBlock("estatefour_9",
+            () -> new EstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ESTATEFOUR_10 = registerBlock("estatefour_10",
+            () -> new EstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ESTATEFOUR_11 = registerBlock("estatefour_11",
+            () -> new EstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
 
+    //ESTATECORNERS
+    public static final RegistryObject<Block> C1ESTATEFOUR_1 = registerBlock("c1estatefour_1",
+            () -> new EstatefourC1FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> C2ESTATEFOUR_1 = registerBlock("c2estatefour_1",
+            () -> new EstatefourC2FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+
+    //DOUBLE FOUR ESTATE
+    public static final RegistryObject<Block> DBLESTATEFOUR_1 = registerBlock("dblestatefour_1",
+            () -> new DblEstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+
+    // DOUBLE THREE ESTATE
+    public static final RegistryObject<Block> DBLESTATETHREE_1 = registerBlock("dblestatethree_1",
+            () -> new DblEstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

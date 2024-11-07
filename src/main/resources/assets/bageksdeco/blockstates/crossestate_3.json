@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "bageksdeco:block/crossestate_3" },
+    "facing=east": { "model": "bageksdeco:block/crossestate_3", "y": 90 },
+    "facing=south": { "model": "bageksdeco:block/crossestate_3", "y": 180 },
+    "facing=west": { "model": "bageksdeco:block/crossestate_3", "y": 270 },
+    "facing=up": {"model": "bageksdeco:block/crossestate_3", "y": 90 },
+    "facing=down": {"model": "bageksdeco:block/crossestate_3", "y": 90 }
+  }
+}
