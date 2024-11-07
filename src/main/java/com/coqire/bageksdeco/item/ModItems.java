@@ -12,7 +12,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, bageksdeco.Mod_ID);
 
     public static final RegistryObject<Item> FENCELOGO = ITEMS.register("fencelogo",
-            () -> new Item(new Item.Properties().tab(DecoCreativeModeTab.BAGEKSDECO_TAB)));
+            () -> new Item(new Item.Properties()));
 
 
 public static void register(IEventBus eventBus) {
