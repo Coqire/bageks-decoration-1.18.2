@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "bageksdeco:block/english_saddle_swem_brown" },
+    "facing=east": { "model": "bageksdeco:block/english_saddle_swem_brown", "y": 90 },
+    "facing=south": { "model": "bageksdeco:block/english_saddle_swem_brown", "y": 180 },
+    "facing=west": { "model": "bageksdeco:block/english_saddle_swem_brown", "y": 270 }
+  }
+}

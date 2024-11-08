@@ -181,6 +181,45 @@ public class ModBlocks {
             () -> new DblEstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
             DecoCreativeModeTab.BAGEKSDECO_TAB);
 
+    // ANGLED THREE ESTATE
+    public static final RegistryObject<Block> ANGESTATETHREE_2 = registerBlock("angestatethree_2",
+            () -> new AngEstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+
+
+    // ANGLED FOUR ESTATE
+    public static final RegistryObject<Block> ANGESTATEFOUR_2 = registerBlock("angestatefour_2",
+            () -> new AngEstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+
+
+
+
+
+    // ENGLISH SWEM SADDLES
+    public static final RegistryObject<Block> ENGLISH_SADDLE_SWEM_BLACK = registerBlock("english_saddle_swem_black",
+            () -> new EnglishSaddleSWEMBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_WOOL).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> ENGLISH_SADDLE_SWEM_BROWN = registerBlock("english_saddle_swem_brown",
+            () -> new EnglishSaddleSWEMBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_WOOL).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+
+    // BAGS
+    public static final RegistryObject<Block> FEED_BAG_1 = registerBlock("feed_bag_1",
+            () -> new FeedbagsBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_WOOL).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> FEED_BAG_2 = registerBlock("feed_bag_2",
+            () -> new FeedbagsBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_WOOL).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> FEED_BAG_3 = registerBlock("feed_bag_3",
+            () -> new FeedbagsBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_WOOL).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> FEED_BAG_4 = registerBlock("feed_bag_4",
+            () -> new FeedbagsBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_WOOL).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+
+
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, tab);
