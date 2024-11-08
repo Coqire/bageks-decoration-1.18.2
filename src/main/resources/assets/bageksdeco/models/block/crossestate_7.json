@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "bageksdeco:fences/crossbuck/crossestate_7",
+		"11": "bageksdeco:fences/crossbuck/crossestate_7",
 		"particle": "minecraft:block/oak_log"
 	},
 	"elements": [

@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "bageksdeco:fences/estatefour/estatefour_5",
+		"11": "bageksdeco:fences/estatefour/estatefour_5",
 		"particle": "minecraft:block/acacia_log"
 	},
 	"elements": [
