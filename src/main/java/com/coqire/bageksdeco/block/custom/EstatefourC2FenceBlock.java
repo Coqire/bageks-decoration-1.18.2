@@ -24,57 +24,40 @@ public class EstatefourC2FenceBlock extends Block {
     }
 
     private static final VoxelShape SHAPE_NORTH = Stream.of(
-            Block.box(-13, 2.5, 0.5, 29, 4.5, 2.5),
-            Block.box(-13.5, 8.5, 0.5, 32, 10.5, 2.5),
-            Block.box(-13, 20.5, 0.5, 29, 22.5, 2.5),
-            Block.box(-16, 14.75, 0.5, 30.5, 16.75, 2.5),
-            Block.box(-16, 0, 0, -13, 24.5, 3),
-            Block.box(29, 0, 0, 32, 24.5, 3)
+            Block.box(2, 2.5, 7, 29, 22.5, 9),
+            Block.box(0, 0, 6.5, 3, 24.5, 9.5),
+            Block.box(29, 0, 6.5, 32, 24.5, 9.5)
     ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
     private static final VoxelShape SHAPE_EAST =Stream.of(
-            Block.box(13.5, 2.5, -12.5, 15.5, 4.5, 29.5),
-            Block.box(13.5, 8.5, -15.5, 15.5, 10.5, 30),
-            Block.box(13.5, 20.5, -12.5, 15.5, 22.5, 29.5),
-            Block.box(13.5, 14.75, -15.5, 15.5, 16.75, 31),
-            Block.box(13, 0, 28.5, 16, 24.5, 31.5),
-            Block.box(13, 0, -15.5, 16, 24.5, -12.5)
+            Block.box(7, 2.5, 3, 9, 22.5, 30),
+            Block.box(6.5, 0, 29, 9.5, 24.5, 32),
+            Block.box(6.5, 0, 0, 9.5, 24.5, 3)
     ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
     private static final VoxelShape SHAPE_SOUTH = Stream.of(
-            Block.box(-13, 2.5, 13.5, 29, 4.5, 15.5),
-            Block.box(-13.5, 8.5, 13.5, 32, 10.5, 15.5),
-            Block.box(-13, 20.5, 13.5, 29, 22.5, 15.5),
-            Block.box(-16, 14.75, 13.5, 30.5, 16.75, 15.5),
-            Block.box(-16, 0, 13, -13, 24.5, 16),
-            Block.box(29, 0, 13, 32, 24.5, 16)
+            Block.box(-14, 2.5, 7, 13, 22.5, 9),
+            Block.box(-16, 0, 6.5, -13, 24.5, 9.5),
+            Block.box(13, 0, 6.5, 16, 24.5, 9.5)
+
     ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
     private static final VoxelShape SHAPE_WEST = Stream.of(
-            Block.box(0.5, 2.5, -12.5, 2.5, 4.5, 29.5),
-            Block.box(0.5, 8.5, -15.5, 2.5, 10.5, 30),
-            Block.box(0.5, 20.5, -12.5, 2.5, 22.5, 29.5),
-            Block.box(0.5, 14.75, -15.5, 2.5, 16.75, 31),
-            Block.box(0, 0, 28.5, 3, 24.5, 31.5),
-            Block.box(0, 0, -15.5, 3, 24.5, -12.5)
+            Block.box(7, 2.5, -13, 9, 22.5, 14),
+            Block.box(6.5, 0, 13, 9.5, 24.5, 16),
+            Block.box(6.5, 0, -16, 9.5, 24.5, -13)
     ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
     private static final VoxelShape SHAPE_UP = Stream.of(
-            Block.box(-13, 2.5, 0.5, 29, 4.5, 2.5),
-            Block.box(-13.5, 8.5, 0.5, 32, 10.5, 2.5),
-            Block.box(-13, 20.5, 0.5, 29, 22.5, 2.5),
-            Block.box(-16, 14.75, 0.5, 30.5, 16.75, 2.5),
-            Block.box(-16, 0, 0, -13, 24.5, 3),
-            Block.box(29, 0, 0, 32, 24.5, 3)
+            Block.box(2, 2.5, 7, 29, 22.5, 9),
+            Block.box(0, 0, 6.5, 3, 24.5, 9.5),
+            Block.box(29, 0, 6.5, 32, 24.5, 9.5)
     ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
     private static final VoxelShape SHAPE_DOWN = Stream.of(
-            Block.box(-13, 2.5, 0.5, 29, 4.5, 2.5),
-            Block.box(-13.5, 8.5, 0.5, 32, 10.5, 2.5),
-            Block.box(-13, 20.5, 0.5, 29, 22.5, 2.5),
-            Block.box(-16, 14.75, 0.5, 30.5, 16.75, 2.5),
-            Block.box(-16, 0, 0, -13, 24.5, 3),
-            Block.box(29, 0, 0, 32, 24.5, 3)
+            Block.box(2, 2.5, 7, 29, 22.5, 9),
+            Block.box(0, 0, 6.5, 3, 24.5, 9.5),
+            Block.box(29, 0, 6.5, 32, 24.5, 9.5)
     ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
     @Override
