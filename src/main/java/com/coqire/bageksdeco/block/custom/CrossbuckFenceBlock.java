@@ -26,57 +26,39 @@ public class CrossbuckFenceBlock extends Block {
     }
 
     private static final VoxelShape SHAPE_NORTH = Stream.of(
-            Block.box(-13, 2.5, 0.5, 29, 4.5, 2.5),
-            Block.box(-13.5, 7.5, 0.5, 32, 9.5, 2.5),
-            Block.box(-13, 20.5, 0.5, 29, 22.5, 2.5),
-            Block.box(-16, 13.75, 0.5, 30.5, 15.75, 2.5),
-            Block.box(-16, 0, 0, -13, 24.5, 3),
-            Block.box(29, 0, 0, 32, 24.5, 3)
+            Block.box(-14, 2.5, 7, 29, 22.5, 9),
+            Block.box(29, 0, 6.5, 32, 24.5, 9.5),
+            Block.box(-16, 0, 6.5, -13, 24.5, 9.5)
             ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
     private static final VoxelShape SHAPE_EAST =Stream.of(
-        Block.box(14, 2.5, -12.5, 16, 4.5, 29.5),
-        Block.box(14, 11.285652447524257, -15.5, 16, 13.285652447524257, 30.00000000000001),
-        Block.box(14, 20.5, -12.5, 16, 22.5, 29.5),
-        Block.box(14, 11.319648040243454, -15.5, 16, 13.319648040243454, 31.000000000000014),
-        Block.box(13.5, 0, -15.5, 16.5, 24.5, -12.5),
-        Block.box(13.5, 0, 28.5, 16.5, 24.5, 31.5)
+            Block.box(7, 2.5, -13, 9, 22.5, 30),
+            Block.box(6.5, 0, -16, 9.5, 24.5, -13),
+            Block.box(6.5, 0, 29, 9.5, 24.5, 32)
         ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
     private static final VoxelShape SHAPE_SOUTH = Stream.of(
-            Block.box(-13, 2.5, 13.5, 29, 4.5, 15.5),
-            Block.box(-14.766393188171387, 11.133411512546829, 13.5, 30.733606811828615, 13.133411512546829, 15.5),
-            Block.box(-13, 20.5, 13.5, 29, 22.5, 15.5),
-            Block.box(-15.983571251779725, 11.167407105266026, 13.5, 30.516428748220275, 13.167407105266026, 15.5),
-            Block.box(-16, 0, 13, -13, 24.5, 16),
-            Block.box(29, 0, 13, 32, 24.5, 16)
+            Block.box(-14, 2.5, 7, 29, 22.5, 9),
+            Block.box(29, 0, 6.5, 32, 24.5, 9.5),
+            Block.box(-16, 0, 6.5, -13, 24.5, 9.5)
             ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
     private static final VoxelShape SHAPE_WEST = Stream.of(
-        Block.box(0, 2.5, -12.5, 2, 4.5, 29.5),
-        Block.box(0, 11.285652447524257, -15.5, 2, 13.285652447524257, 30.00000000000001),
-        Block.box(0, 20.5, -12.5, 2, 22.5, 29.5),
-        Block.box(0, 11.319648040243454, -15.5, 2, 13.319648040243454, 31.000000000000014),
-        Block.box(-0.5, 0, 28.5, 2.5, 24.5, 31.5),
-        Block.box(-0.5, 0, -15.5, 2.5, 24.5, -12.5)
+            Block.box(7, 2.5, -13, 9, 22.5, 30),
+            Block.box(6.5, 0, -16, 9.5, 24.5, -13),
+            Block.box(6.5, 0, 29, 9.5, 24.5, 32)
         ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
     private static final VoxelShape SHAPE_UP = Stream.of(
-            Block.box(-13, 2.5, 0.5, 29, 4.5, 2.5),
-            Block.box(-13.5, 7.5, 0.5, 32, 9.5, 2.5),
-            Block.box(-13, 20.5, 0.5, 29, 22.5, 2.5),
-            Block.box(-16, 13.75, 0.5, 30.5, 15.75, 2.5),
-            Block.box(-16, 0, 0, -13, 24.5, 3),
-            Block.box(29, 0, 0, 32, 24.5, 3)
+            Block.box(-14, 2.5, 7, 29, 22.5, 9),
+            Block.box(29, 0, 6.5, 32, 24.5, 9.5),
+            Block.box(-16, 0, 6.5, -13, 24.5, 9.5)
     ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
     private static final VoxelShape SHAPE_DOWN = Stream.of(
-            Block.box(-13, 2.5, 0.5, 29, 4.5, 2.5),
-            Block.box(-13.5, 7.5, 0.5, 32, 9.5, 2.5),
-            Block.box(-13, 20.5, 0.5, 29, 22.5, 2.5),
-            Block.box(-16, 13.75, 0.5, 30.5, 15.75, 2.5),
-            Block.box(-16, 0, 0, -13, 24.5, 3),
-            Block.box(29, 0, 0, 32, 24.5, 3)
+            Block.box(-14, 2.5, 7, 29, 22.5, 9),
+            Block.box(29, 0, 6.5, 32, 24.5, 9.5),
+            Block.box(-16, 0, 6.5, -13, 24.5, 9.5)
     ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
 
