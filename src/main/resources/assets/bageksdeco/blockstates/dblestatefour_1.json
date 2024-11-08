@@ -3,7 +3,7 @@
     "facing=north": { "model": "bageksdeco:block/dblestatefour_1" },
     "facing=east": { "model": "bageksdeco:block/dblestatefour_1", "y": 90 },
     "facing=south": { "model": "bageksdeco:block/dblestatefour_1", "y": 180 },
-    "facing=wdblest": { "model": "bageksdeco:block/dblestatefour_1", "y": 270 },
+    "facing=west": { "model": "bageksdeco:block/dblestatefour_1", "y": 270 },
     "facing=up": {"model": "bageksdeco:block/dblestatefour_1", "y": 90 },
     "facing=down": {"model": "bageksdeco:block/dblestatefour_1", "y": 90 }
   }
