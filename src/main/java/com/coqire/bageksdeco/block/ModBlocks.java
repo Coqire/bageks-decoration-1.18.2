@@ -175,9 +175,69 @@ public class ModBlocks {
     public static final RegistryObject<Block> DBLESTATEFOUR_1 = registerBlock("dblestatefour_1",
             () -> new DblEstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
             DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> DBLESTATEFOUR_2 = registerBlock("dblestatefour_2",
+            () -> new DblEstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> DBLESTATEFOUR_3 = registerBlock("dblestatefour_3",
+            () -> new DblEstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> DBLESTATEFOUR_4 = registerBlock("dblestatefour_4",
+            () -> new DblEstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> DBLESTATEFOUR_5 = registerBlock("dblestatefour_5",
+            () -> new DblEstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> DBLESTATEFOUR_6 = registerBlock("dblestatefour_6",
+            () -> new DblEstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> DBLESTATEFOUR_7 = registerBlock("dblestatefour_7",
+            () -> new DblEstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> DBLESTATEFOUR_8 = registerBlock("dblestatefour_8",
+            () -> new DblEstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> DBLESTATEFOUR_9 = registerBlock("dblestatefour_9",
+            () -> new DblEstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> DBLESTATEFOUR_10 = registerBlock("dblestatefour_10",
+            () -> new DblEstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> DBLESTATEFOUR_11 = registerBlock("dblestatefour_11",
+            () -> new DblEstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
 
     // DOUBLE THREE ESTATE
     public static final RegistryObject<Block> DBLESTATETHREE_1 = registerBlock("dblestatethree_1",
+            () -> new DblEstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> DBLESTATETHREE_2 = registerBlock("dblestatethree_2",
+            () -> new DblEstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> DBLESTATETHREE_3 = registerBlock("dblestatethree_3",
+            () -> new DblEstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> DBLESTATETHREE_4 = registerBlock("dblestatethree_4",
+            () -> new DblEstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> DBLESTATETHREE_5 = registerBlock("dblestatethree_5",
+            () -> new DblEstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> DBLESTATETHREE_6 = registerBlock("dblestatethree_6",
+            () -> new DblEstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> DBLESTATETHREE_7 = registerBlock("dblestatethree_7",
+            () -> new DblEstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> DBLESTATETHREE_8 = registerBlock("dblestatethree_8",
+            () -> new DblEstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> DBLESTATETHREE_9 = registerBlock("dblestatethree_9",
+            () -> new DblEstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> DBLESTATETHREE_10 = registerBlock("dblestatethree_10",
+            () -> new DblEstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> DBLESTATETHREE_11 = registerBlock("dblestatethree_11",
             () -> new DblEstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
             DecoCreativeModeTab.BAGEKSDECO_TAB);
 

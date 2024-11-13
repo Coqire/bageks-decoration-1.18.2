@@ -67,6 +67,30 @@ public class bageksdeco {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ESTATETHREE_10.get(), RenderType.solid());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ESTATETHREE_11.get(), RenderType.solid());
 
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATETHREE_1.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATETHREE_2.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATETHREE_3.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATETHREE_4.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATETHREE_5.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATETHREE_6.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATETHREE_7.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATETHREE_8.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATETHREE_9.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATETHREE_10.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATETHREE_11.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATEFOUR_1.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATEFOUR_2.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATEFOUR_3.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATEFOUR_4.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATEFOUR_5.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATEFOUR_6.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATEFOUR_7.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATEFOUR_8.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATEFOUR_9.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATEFOUR_10.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATEFOUR_11.get(), RenderType.solid());
+
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ESTATEFOUR_1.get(), RenderType.solid());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ESTATEFOUR_2.get(), RenderType.solid());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ESTATEFOUR_3.get(), RenderType.solid());
