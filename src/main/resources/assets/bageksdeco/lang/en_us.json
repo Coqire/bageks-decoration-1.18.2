@@ -73,8 +73,13 @@
   "block.bageksdeco.dblestatethree_10": "Warped Estate Three Fence",
   "block.bageksdeco.dblestatethree_11": "Whitewash Estate Three Fence",
 
-  "block.bageksdeco.angestatefour_2": "Spruce Angled Estate Four Fence",
-  "block.bageksdeco.angestatethree_2": "Spruce Angled Estate Three Fence",
+  "block.bageksdeco.angestatefour_2": "Spruce Angled Estate Four Fence 1",
+
+  "block.bageksdeco.ang1estatefour_2": "Spruce Angled Estate Four Fence 2",
+
+  "block.bageksdeco.angestatethree_2": "Spruce Angled Estate Three Fence 1",
+
+  "block.bageksdeco.ang1estatethree_2": "Spruce Angled Estate Three Fence 2",
 
   "block.bageksdeco.english_saddle_swem_brown": "Brown English SWEM Saddle",
   "block.bageksdeco.english_saddle_swem_black": "Black English SWEM Saddle",
@@ -84,5 +89,17 @@
   "block.bageksdeco.feed_bag_3": "Coolstance Copra Feed Bag",
   "block.bageksdeco.feed_bag_4": "Guardian Shavings Bag",
 
-  "itemGroup.bageksdecotab": "Bagek's Deco"
+  "block.bageksdeco.hpw_1": "Oak Hitching Post /T",
+  "block.bageksdeco.hpw_2": "Spruce Hitching Post /T",
+  "block.bageksdeco.hpw_3": "Birch Hitching Post /T",
+  "block.bageksdeco.hpw_4": "Dark Oak Hitching Post /T",
+  "block.bageksdeco.hpw_5": "Acacia Hitching Post /T",
+  "block.bageksdeco.hpw_6": "Jungle Hitching Post /T",
+  "block.bageksdeco.hpw_7": "Cherry Hitching Post /T",
+  "block.bageksdeco.hpw_8": "Mangrove Hitching Post /T",
+  "block.bageksdeco.hpw_9": "Crimson Hitching Post /T",
+  "block.bageksdeco.hpw_10": "Warped Hitching Post /T",
+  "block.bageksdeco.hpw_11": "Whitewash Hitching Post /T",
+
+  "itemGroup.bageksdecotab": "Bagek's Decor"
 }
