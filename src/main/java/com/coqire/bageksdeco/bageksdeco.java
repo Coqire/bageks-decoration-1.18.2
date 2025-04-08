@@ -107,7 +107,14 @@ public class bageksdeco {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATETHREE_1.get(), RenderType.solid());
 
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ANGESTATETHREE_2.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.ANG1ESTATETHREE_2.get(), RenderType.solid());
+
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ANGESTATEFOUR_2.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.ANG1ESTATEFOUR_2.get(), RenderType.solid());
+
+
 
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ENGLISH_SADDLE_SWEM_BLACK.get(), RenderType.solid());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ENGLISH_SADDLE_SWEM_BROWN.get(), RenderType.solid());
@@ -116,5 +123,6 @@ public class bageksdeco {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.FEED_BAG_2.get(), RenderType.solid());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.FEED_BAG_3.get(), RenderType.solid());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.FEED_BAG_4.get(), RenderType.solid());
+
     }
 }

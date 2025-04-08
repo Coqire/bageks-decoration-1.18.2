@@ -24,46 +24,27 @@ public class AngEstatefourFenceBlock extends Block {
     }
 
     private static final VoxelShape SHAPE_NORTH = Stream.of(
-            Block.box(-13, 2.5, 7, 29, 22.5, 9),
-            Block.box(-13, 20.5, 7, 29, 22.5, 9),
-            Block.box(-16, 0, 6.5, -13, 24.5, 9.5),
-            Block.box(29, 0, 6.5, 32, 24.5, 9.5)
+            Block.box(-16, 0, 0, 32, 25, 19)
     ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
     private static final VoxelShape SHAPE_EAST =Stream.of(
-            Block.box(7, 2.5, -13, 9, 22.5, 29),
-            Block.box(7, 20.5, -13, 9, 22.5, 29),
-            Block.box(6.5, 0, -16, 9.5, 24.5, -13),
-            Block.box(6.5, 0, 29, 9.5, 24.5, 32)
+            Block.box(0, 0, -16, 19, 25, 32)
     ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
     private static final VoxelShape SHAPE_SOUTH = Stream.of(
-            Block.box(-13, 2.5, 7, 29, 22.5, 9),
-            Block.box(-13, 20.5, 7, 29, 22.5, 9),
-            Block.box(-16, 0, 6.5, -13, 24.5, 9.5),
-            Block.box(29, 0, 6.5, 32, 24.5, 9.5)
+            Block.box(-16, 0, 0, 32, 25, 19)
     ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
     private static final VoxelShape SHAPE_WEST = Stream.of(
-            Block.box(7, 2.5, -13, 9, 22.5, 29),
-            Block.box(7, 20.5, -13, 9, 22.5, 29),
-            Block.box(6.5, 0, -16, 9.5, 24.5, -13),
-            Block.box(6.5, 0, 29, 9.5, 24.5, 32)
-
+            Block.box(0, 0, -16, 19, 25, 32)
     ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
     private static final VoxelShape SHAPE_UP = Stream.of(
-            Block.box(7, 2.5, -13, 9, 22.5, 29),
-            Block.box(7, 20.5, -13, 9, 22.5, 29),
-            Block.box(6.5, 0, -16, 9.5, 24.5, -13),
-            Block.box(6.5, 0, 29, 9.5, 24.5, 32)
+            Block.box(-16, 0, 0, 32, 25, 19)
     ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
     private static final VoxelShape SHAPE_DOWN = Stream.of(
-            Block.box(7, 2.5, -13, 9, 22.5, 29),
-            Block.box(7, 20.5, -13, 9, 22.5, 29),
-            Block.box(6.5, 0, -16, 9.5, 24.5, -13),
-            Block.box(6.5, 0, 29, 9.5, 24.5, 32)
+            Block.box(-16, 0, 0, 32, 25, 19)
     ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
     @Override

@@ -2,15 +2,15 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "bageksdeco:fences/estatethree/angestatethree_2",
+		"0": "bageksdeco:fences/estatefour/angestatefour_2",
 		"particle": "minecraft:block/spruce_log"
 	},
 	"elements": [
 		{
 			"name": "bottompost",
-			"from": [-16, 2.5, 9],
-			"to": [32, 4.5, 11],
-			"rotation": {"angle": -22.5, "axis": "y", "origin": [8.25, 12.5, 10]},
+			"from": [-16, 2.5, 8.5],
+			"to": [32, 4.5, 10.5],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8.25, 12.5, 9.5]},
 			"faces": {
 				"north": {"uv": [0, 4, 10.5, 4.5], "texture": "#0"},
 				"east": {"uv": [6, 8.75, 6.5, 9.25], "texture": "#0"},
@@ -22,9 +22,9 @@
 		},
 		{
 			"name": "toppost",
-			"from": [-16, 20.5, 9],
-			"to": [32, 22.5, 11],
-			"rotation": {"angle": -22.5, "axis": "y", "origin": [8.25, 12.5, 10]},
+			"from": [-16, 20.5, 8.5],
+			"to": [32, 22.5, 10.5],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8.25, 12.5, 9.5]},
 			"faces": {
 				"north": {"uv": [0, 6, 10.5, 6.5], "texture": "#0"},
 				"east": {"uv": [8, 8.75, 8.5, 9.25], "texture": "#0"},
@@ -35,10 +35,10 @@
 			}
 		},
 		{
-			"name": "middlepost",
-			"from": [-16, 11.5, 9],
-			"to": [32, 13.5, 11],
-			"rotation": {"angle": -22.5, "axis": "y", "origin": [8.25, 9.25, 10]},
+			"name": "rightdiagpost",
+			"from": [-16, 11.5, 8.5],
+			"to": [32, 13.5, 10.5],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8.25, 9.25, 9.5]},
 			"faces": {
 				"north": {"uv": [0, 0, 11.75, 0.5], "texture": "#0"},
 				"east": {"uv": [9, 8, 9.5, 8.5], "texture": "#0"},
@@ -50,9 +50,9 @@
 		},
 		{
 			"name": "leftpost",
-			"from": [29, 0, 16],
-			"to": [32, 24.5, 19],
-			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 16]},
+			"from": [29, 0, 0],
+			"to": [32, 24.5, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
 			"faces": {
 				"north": {"uv": [3, 8, 3.75, 14.25], "texture": "#0"},
 				"east": {"uv": [3.75, 8, 4.5, 14.25], "texture": "#0"},
@@ -64,9 +64,9 @@
 		},
 		{
 			"name": "rightpost",
-			"from": [-16, 0, 0],
-			"to": [-13, 24.5, 3],
-			"rotation": {"angle": 0, "axis": "y", "origin": [-29, 0, 0]},
+			"from": [-16, 0, 16],
+			"to": [-13, 24.5, 19],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-29, 0, 16]},
 			"faces": {
 				"north": {"uv": [0, 8, 0.75, 14.25], "texture": "#0"},
 				"east": {"uv": [0.75, 8, 1.5, 14.25], "texture": "#0"},

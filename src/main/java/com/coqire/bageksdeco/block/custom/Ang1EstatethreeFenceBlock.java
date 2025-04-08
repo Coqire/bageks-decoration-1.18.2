@@ -4,7 +4,6 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -16,10 +15,10 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 
 import java.util.stream.Stream;
 
-public class AngEstatethreeFenceBlock extends Block {
+public class Ang1EstatethreeFenceBlock extends Block {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
 
-    public AngEstatethreeFenceBlock(BlockBehaviour.Properties pProperties) {
+    public Ang1EstatethreeFenceBlock(Properties pProperties) {
         super(pProperties);
     }
 
