@@ -163,14 +163,6 @@ public class ModBlocks {
             () -> new EstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
             DecoCreativeModeTab.BAGEKSDECO_TAB);
 
-    //ESTATECORNERS
-    public static final RegistryObject<Block> C1ESTATEFOUR_1 = registerBlock("c1estatefour_1",
-            () -> new EstatefourC1FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
-            DecoCreativeModeTab.BAGEKSDECO_TAB);
-    public static final RegistryObject<Block> C2ESTATEFOUR_1 = registerBlock("c2estatefour_1",
-            () -> new EstatefourC2FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
-            DecoCreativeModeTab.BAGEKSDECO_TAB);
-
     //DOUBLE FOUR ESTATE
     public static final RegistryObject<Block> DBLESTATEFOUR_1 = registerBlock("dblestatefour_1",
             () -> new DblEstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
