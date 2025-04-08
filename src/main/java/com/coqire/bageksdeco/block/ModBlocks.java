@@ -238,12 +238,22 @@ public class ModBlocks {
             () -> new AngEstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
             DecoCreativeModeTab.BAGEKSDECO_TAB);
 
+    // ANGLED OPPO THREE ESTATE
+
+    public static final RegistryObject<Block> ANG1ESTATETHREE_2 = registerBlock("ang1estatethree_2",
+            () -> new AngEstatethreeFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
 
     // ANGLED FOUR ESTATE
     public static final RegistryObject<Block> ANGESTATEFOUR_2 = registerBlock("angestatefour_2",
             () -> new AngEstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
             DecoCreativeModeTab.BAGEKSDECO_TAB);
 
+    // ANGLED OPPO FOUR ESTATE
+
+    public static final RegistryObject<Block> ANG1ESTATEFOUR_2 = registerBlock("ang1estatefour_2",
+            () -> new AngEstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
 
 
 
@@ -269,6 +279,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> FEED_BAG_4 = registerBlock("feed_bag_4",
             () -> new FeedbagsBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_WOOL).noOcclusion()),
             DecoCreativeModeTab.BAGEKSDECO_TAB);
+
 
 
 
