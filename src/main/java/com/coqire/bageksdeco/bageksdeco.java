@@ -103,9 +103,6 @@ public class bageksdeco {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ESTATEFOUR_10.get(), RenderType.solid());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ESTATEFOUR_11.get(), RenderType.solid());
 
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.C1ESTATEFOUR_1.get(), RenderType.solid());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.C2ESTATEFOUR_1.get(), RenderType.solid());
-
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATEFOUR_1.get(), RenderType.solid());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.DBLESTATETHREE_1.get(), RenderType.solid());
 
