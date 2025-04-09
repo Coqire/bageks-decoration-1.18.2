@@ -124,5 +124,17 @@ public class bageksdeco {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.FEED_BAG_3.get(), RenderType.solid());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.FEED_BAG_4.get(), RenderType.solid());
 
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.HPW_1.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.HPW_2.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.HPW_3.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.HPW_4.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.HPW_5.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.HPW_6.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.HPW_7.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.HPW_8.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.HPW_9.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.HPW_10.get(), RenderType.solid());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.HPW_11.get(), RenderType.solid());
+
     }
 }

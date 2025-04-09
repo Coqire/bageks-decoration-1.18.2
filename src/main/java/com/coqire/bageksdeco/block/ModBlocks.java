@@ -280,7 +280,40 @@ public class ModBlocks {
             () -> new FeedbagsBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_WOOL).noOcclusion()),
             DecoCreativeModeTab.BAGEKSDECO_TAB);
 
-
+    // HITCHING POST WATER
+    public static final RegistryObject<Block> HPW_1 = registerBlock("hpw_1",
+            () -> new HitchingpostBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> HPW_2 = registerBlock("hpw_2",
+            () -> new HitchingpostBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> HPW_3 = registerBlock("hpw_3",
+            () -> new HitchingpostBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> HPW_4 = registerBlock("hpw_4",
+            () -> new HitchingpostBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> HPW_5 = registerBlock("hpw_5",
+            () -> new HitchingpostBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> HPW_6 = registerBlock("hpw_6",
+            () -> new HitchingpostBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> HPW_7 = registerBlock("hpw_7",
+            () -> new HitchingpostBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> HPW_8 = registerBlock("hpw_8",
+            () -> new HitchingpostBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> HPW_9 = registerBlock("hpw_9",
+            () -> new HitchingpostBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> HPW_10 = registerBlock("hpw_10",
+            () -> new HitchingpostBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+    public static final RegistryObject<Block> HPW_11 = registerBlock("hpw_11",
+            () -> new HitchingpostBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
