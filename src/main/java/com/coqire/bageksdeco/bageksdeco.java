@@ -136,5 +136,7 @@ public class bageksdeco {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.HPW_10.get(), RenderType.solid());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.HPW_11.get(), RenderType.solid());
 
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BAGEK_SWEATSCRAPER_1.get(), RenderType.solid());
+
     }
 }

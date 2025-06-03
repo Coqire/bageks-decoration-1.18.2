@@ -315,6 +315,11 @@ public class ModBlocks {
             () -> new HitchingpostBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
             DecoCreativeModeTab.BAGEKSDECO_TAB);
 
+    //Sweatscrapers
+    public static final RegistryObject<Block> BAGEK_SWEATSCRAPER_1 = registerBlock("bagek_sweatscraper_1",
+            () -> new SweatScraperBlock(BlockBehaviour.Properties.copy(Blocks.RED_WOOL).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSDECO_TAB);
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

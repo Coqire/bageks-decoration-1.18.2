@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "bageksdeco:block/bagek_sweatscraper_1" },
+    "facing=east": { "model": "bageksdeco:block/bagek_sweatscraper_1", "y": 90 },
+    "facing=south": { "model": "bageksdeco:block/bagek_sweatscraper_1", "y": 180 },
+    "facing=west": { "model": "bageksdeco:block/bagek_sweatscraper_1", "y": 270 },
+    "facing=up": {"model": "bageksdeco:block/bagek_sweatscraper_1", "y": 90 },
+    "facing=down": {"model": "bageksdeco:block/bagek_sweatscraper_1", "y": 90 }
+  }
+}
