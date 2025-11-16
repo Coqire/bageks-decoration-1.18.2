@@ -26,27 +26,27 @@ public class CrossbuckFenceBlock extends Block {
     }
 
     private static final VoxelShape SHAPE_NORTH = Stream.of(
-            Block.box(-16, 0, 12.9375, 32, 24.5, 16)
-            ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
+            Block.box(-16, 0, -0.0625, 32, 24.5, 3)
+    ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
     private static final VoxelShape SHAPE_EAST =Stream.of(
-            Block.box(0, 0, -16, 3, 24.5, 32)
-        ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
+            Block.box(13, 0, -16, 16, 24.5, 32)
+    ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
     private static final VoxelShape SHAPE_SOUTH = Stream.of(
-            Block.box(-16, 0, -0.0625, 32, 24.5, 3)
-            ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
-
-    private static final VoxelShape SHAPE_WEST = Stream.of(
-            Block.box(13, 0, -16, 16, 24.5, 32)
-        ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
-
-    private static final VoxelShape SHAPE_UP = Stream.of(
             Block.box(-16, 0, 12.9375, 32, 24.5, 16)
     ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
+    private static final VoxelShape SHAPE_WEST = Stream.of(
+            Block.box(0, 0, -16, 3, 24.5, 32)
+    ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
+
+    private static final VoxelShape SHAPE_UP = Stream.of(
+            Block.box(-16, 0, -0.0625, 32, 24.5, 3)
+    ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
+
     private static final VoxelShape SHAPE_DOWN = Stream.of(
-            Block.box(-16, 0, 12.9375, 32, 24.5, 16)
+            Block.box(-16, 0, -0.0625, 32, 24.5, 3)
     ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
 
 
