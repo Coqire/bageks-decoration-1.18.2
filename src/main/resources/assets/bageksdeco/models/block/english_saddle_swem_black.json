@@ -1,9 +1,9 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "bageksdeco:tack/saddles/english_saddle_swem_black",
-		"particle": "minecraft:block/black_wool"
+		"0": "bageksdeco:tack/saddles/english_saddle_swem_black"
 	},
 	"elements": [
 		{
@@ -134,8 +134,8 @@
 		},
 		{
 			"name": "englishsaddleleftside",
-			"from": [5.63139, -15.3303, 10.27656],
-			"to": [11.63139, -11.3303, 11.27656],
+			"from": [5.63139, -15.56127, 10.37223],
+			"to": [11.63139, -11.56127, 11.37223],
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [-1.06485, 20.18381, 14.63355]},
 			"faces": {
 				"north": {"uv": [7, 5.5, 6, 4], "rotation": 270, "texture": "#0"},
