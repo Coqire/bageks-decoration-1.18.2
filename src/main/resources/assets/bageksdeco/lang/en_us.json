@@ -73,21 +73,59 @@
   "block.bageksdeco.dblestatethree_10": "Warped Estate Three Fence",
   "block.bageksdeco.dblestatethree_11": "Whitewash Estate Three Fence",
 
+  "block.bageksdeco.angestatefour_1": "Oak Angled Estate Four Fence 1",
   "block.bageksdeco.angestatefour_2": "Spruce Angled Estate Four Fence 1",
+  "block.bageksdeco.angestatefour_3": "Birch Angled Estate Four Fence 1",
+  "block.bageksdeco.angestatefour_4": "Dark Oak Angled Estate Four Fence 1",
+  "block.bageksdeco.angestatefour_5": "Acacia Angled Estate Four Fence 1",
+  "block.bageksdeco.angestatefour_6": "Jungle Angled Estate Four Fence 1",
+  "block.bageksdeco.angestatefour_7": "Cherry Angled Estate Four Fence 1",
+  "block.bageksdeco.angestatefour_8": "Mangrove Angled Estate Four Fence 1",
+  "block.bageksdeco.angestatefour_9": "Crimson Angled Estate Four Fence 1",
+  "block.bageksdeco.angestatefour_10": "Warped Angled Estate Four Fence 1",
+  "block.bageksdeco.angestatefour_11": "Whitewash Angled Estate Four Fence 1",
 
+  "block.bageksdeco.ang1estatefour_1": "Oak Angled Estate Four Fence 2",
   "block.bageksdeco.ang1estatefour_2": "Spruce Angled Estate Four Fence 2",
+  "block.bageksdeco.ang1estatefour_3": "Birch Angled Estate Four Fence 2",
+  "block.bageksdeco.ang1estatefour_4": "Dark Oak Angled Estate Four Fence 2",
+  "block.bageksdeco.ang1estatefour_5": "Acacia Angled Estate Four Fence 2",
+  "block.bageksdeco.ang1estatefour_6": "Jungle Angled Estate Four Fence 2",
+  "block.bageksdeco.ang1estatefour_7": "Cherry Angled Estate Four Fence 2",
+  "block.bageksdeco.ang1estatefour_8": "Mangrove Angled Estate Four Fence 2",
+  "block.bageksdeco.ang1estatefour_9": "Crimson Angled Estate Four Fence 2",
+  "block.bageksdeco.ang1estatefour_10": "Warped Angled Estate Four Fence 2",
+  "block.bageksdeco.ang1estatefour_11": "Whitewash Angled Estate Four Fence 2",
 
+  "block.bageksdeco.angestatethree_1": "Oak Angled Estate Three Fence 1",
   "block.bageksdeco.angestatethree_2": "Spruce Angled Estate Three Fence 1",
+  "block.bageksdeco.angestatethree_3": "Birch Angled Estate Three Fence 1",
+  "block.bageksdeco.angestatethree_4": "Dark Oak Angled Estate Three Fence 1",
+  "block.bageksdeco.angestatethree_5": "Acacia Angled Estate Three Fence 1",
+  "block.bageksdeco.angestatethree_6": "Jungle Angled Estate Three Fence 1",
+  "block.bageksdeco.angestatethree_7": "Cherry Angled Estate Three Fence 1",
+  "block.bageksdeco.angestatethree_8": "Mangrove Angled Estate Three Fence 1",
+  "block.bageksdeco.angestatethree_9": "Crimson Angled Estate Three Fence 1",
+  "block.bageksdeco.angestatethree_10": "Warped Angled Estate Three Fence 1",
+  "block.bageksdeco.angestatethree_11": "Whitewash Angled Estate Three Fence 1",
 
+
+  "block.bageksdeco.ang1estatethree_1": "Oak Angled Estate Three Fence 2",
   "block.bageksdeco.ang1estatethree_2": "Spruce Angled Estate Three Fence 2",
+  "block.bageksdeco.ang1estatethree_3": "Birch Angled Estate Three Fence 2",
+  "block.bageksdeco.ang1estatethree_4": "Dark Oak Angled Estate Three Fence 2",
+  "block.bageksdeco.ang1estatethree_5": "Acacia Angled Estate Three Fence 2",
+  "block.bageksdeco.ang1estatethree_6": "Jungle Angled Estate Three Fence 2",
+  "block.bageksdeco.ang1estatethree_7": "Cherry Angled Estate Three Fence 2",
+  "block.bageksdeco.ang1estatethree_8": "Mangrove Angled Estate Three Fence 2",
+  "block.bageksdeco.ang1estatethree_9": "Crimson Angled Estate Three Fence 2",
+  "block.bageksdeco.ang1estatethree_10": "Warped Angled Estate Three Fence 2",
+  "block.bageksdeco.ang1estatethree_11": "Whitewash Angled Estate Three Fence 2",
 
-  "block.bageksdeco.english_saddle_swem_brown": "Brown English SWEM Saddle",
-  "block.bageksdeco.english_saddle_swem_black": "Black English SWEM Saddle",
-
-  "block.bageksdeco.feed_bag_1": "Speedibeet Feed Bag",
-  "block.bageksdeco.feed_bag_2": "Triple Crown Naturals Feed Bag",
-  "block.bageksdeco.feed_bag_3": "Coolstance Copra Feed Bag",
-  "block.bageksdeco.feed_bag_4": "Guardian Shavings Bag",
+  "block.bageksdeco.english_saddle_swem_1": "Black English SWEM Saddle",
+  "block.bageksdeco.english_saddle_swem_2": "Walnut English SWEM Saddle",
+  "block.bageksdeco.english_saddle_swem_3": "Hazelnut English SWEM Saddle",
+  "block.bageksdeco.english_saddle_swem_4": "Acacia English SWEM Saddle",
 
   "block.bageksdeco.hpw_1": "Oak Hitching Post /T",
   "block.bageksdeco.hpw_2": "Spruce Hitching Post /T",
@@ -103,5 +141,5 @@
 
   "block.bageksdeco.bagek_sweatscraper_1": "Carmine Sweatscraper",
 
-  "itemGroup.bageksdecotab": "Bagek's Decor"
+  "itemGroup.bageksfencetab": "Bagek's Fences"
 }

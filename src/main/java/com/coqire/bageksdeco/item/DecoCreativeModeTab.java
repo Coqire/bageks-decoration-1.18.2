@@ -5,7 +5,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
 public class DecoCreativeModeTab {
-    public static final CreativeModeTab BAGEKSDECO_TAB = new CreativeModeTab("bageksdecotab") {
+    public static final CreativeModeTab BAGEKSFENCE_TAB = new CreativeModeTab("bageksfencetab") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ModItems.FENCELOGO.get());
