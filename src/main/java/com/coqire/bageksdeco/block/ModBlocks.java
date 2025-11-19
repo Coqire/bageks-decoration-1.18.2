@@ -4,7 +4,6 @@ import com.coqire.bageksdeco.bageksdeco;
 import com.coqire.bageksdeco.block.custom.*;
 
 import com.coqire.bageksdeco.item.DecoCreativeModeTab;
-import com.coqire.bageksdeco.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -18,6 +17,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
+
+import static com.coqire.bageksdeco.item.ModItems.ITEMS;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
@@ -376,6 +377,19 @@ public class ModBlocks {
             () -> new Ang1EstatefourFenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
             DecoCreativeModeTab.BAGEKSFENCE_TAB);
 
+    //LEFT GATES
+    public static final RegistryObject<Block> LGATEONE_2 = registerBlock("lgateone_2",
+            () -> new LeftGateBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_LOG).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+
+
+
+    // RIGHT GATES
+    public static final RegistryObject<Block> RGATEONE_2 = registerBlock("rgateone_2",
+            () -> new RightGateBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_LOG).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+
+
 
 
 
@@ -441,7 +455,7 @@ public class ModBlocks {
     }
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block,
                                                                             CreativeModeTab tab) {
-        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),
+        return ITEMS.register(name, () -> new BlockItem(block.get(),
                 new Item.Properties().tab(tab)));
     }
 
