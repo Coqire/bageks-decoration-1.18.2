@@ -31,13 +31,39 @@ public class RightGateBlock extends Block {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
     public static final BooleanProperty OPEN = BlockStateProperties.OPEN;
 
+    public static final VoxelShape CLOSED_EAST = Shapes.or(
+            Block.box(29.75, 0, -16, 31.75, 24.5, 32)
+    );
 
-    private static final VoxelShape CLOSED_SHAPE =
-            Block.box(-16, 0, -16, 32, 24.5, -13.5);
+    public static final VoxelShape CLOSED_NORTH = Shapes.or(
+            Block.box(-16, 0, -16, 32, 24.25, -14)
+    );
 
-    private static final VoxelShape OPEN_SHAPE =
-            Block.box(-16, 0, -16, -13.5, 24.5, 32);
+    public static final VoxelShape CLOSED_SOUTH = Shapes.or(
+            Block.box(-16, 0, 30, 32, 24.25, 32)
+    );
 
+    public static final VoxelShape CLOSED_WEST = Shapes.or(
+            Block.box(-16, 0, -16, -13.5, 24.5, 32)
+    );
+
+    // ---------- OPEN SHAPES ----------
+
+    public static final VoxelShape OPEN_EAST = Shapes.or(
+            Block.box(-16, 0, 30, 32, 24.25, 32)
+    );
+
+    public static final VoxelShape OPEN_NORTH = Shapes.or(
+            Block.box(-16, 0, -16, -13.5, 24.5, 32)
+    );
+
+    public static final VoxelShape OPEN_SOUTH = Shapes.or(
+            Block.box(29.75, 0, -16, 31.75, 24.5, 32)
+    );
+
+    public static final VoxelShape OPEN_WEST = Shapes.or(
+            Block.box(-16, 0, 30, 32, 24.25, 32)
+    );
 
     public RightGateBlock(Properties pProperties) {
         super(BlockBehaviour.Properties
@@ -47,10 +73,10 @@ public class RightGateBlock extends Block {
                 .noOcclusion() // lets it be seen through when open
         );
 
-        this.registerDefaultState(
-                this.stateDefinition.any()
-                        .setValue(FACING, Direction.NORTH)
-                        .setValue(OPEN, false)
+        this.registerDefaultState(this.stateDefinition.any()
+                .setValue(BlockStateProperties.HORIZONTAL_FACING, Direction.NORTH)
+                .setValue(BlockStateProperties.OPEN, false)
+
         );
     }
 
@@ -80,14 +106,33 @@ public class RightGateBlock extends Block {
     }
 
     @Override
-    public VoxelShape getShape(BlockState state, net.minecraft.world.level.BlockGetter world,
-                               BlockPos pos, CollisionContext context) {
+    public VoxelShape getCollisionShape(BlockState state, BlockGetter world,
+                                        BlockPos pos, CollisionContext context) {
 
-            if (!state.getValue(OPEN))
-                return CLOSED_SHAPE;
-            return OPEN_SHAPE;
+        if (state.getValue(OPEN)) {
+            return Shapes.empty();
+        }
 
+        Direction dir = state.getValue(FACING);
+        return switch (dir) {
+            case NORTH -> CLOSED_NORTH;
+            case SOUTH -> CLOSED_SOUTH;
+            case WEST -> CLOSED_WEST;
+            default -> CLOSED_EAST;
         };
-
     }
+
+    @Override
+    public VoxelShape getShape(BlockState state, BlockGetter world, net.minecraft.core.BlockPos pos, CollisionContext ctx) {
+        Direction dir = state.getValue(BlockStateProperties.HORIZONTAL_FACING);
+        boolean open = state.getValue(BlockStateProperties.OPEN);
+
+        return switch (dir) {
+            case NORTH -> open ? OPEN_NORTH : CLOSED_NORTH;
+            case SOUTH -> open ? OPEN_SOUTH : CLOSED_SOUTH;
+            case WEST -> open ? OPEN_WEST : CLOSED_WEST;
+            default -> open ? OPEN_EAST : CLOSED_EAST; // EAST
+        };
+    }
+}
 
