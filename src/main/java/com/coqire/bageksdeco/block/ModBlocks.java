@@ -378,16 +378,41 @@ public class ModBlocks {
             DecoCreativeModeTab.BAGEKSFENCE_TAB);
 
     //LEFT GATES
-    public static final RegistryObject<Block> LGATEONE_2 = registerBlock("lgateone_2",
+    public static final RegistryObject<Block> LGATEONE_11 = registerBlock("lgateone_11",
             () -> new LeftGateBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_LOG).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LGATETWO_11 = registerBlock("lgatetwo_11",
+            () -> new RightGateBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_LOG).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LGATETHREE_11 = registerBlock("lgatethree_11",
+            () -> new RightGateBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_LOG).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LGATEFOUR_11 = registerBlock("lgatefour_11",
+            () -> new RightGateBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_LOG).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LGATEFIVE_11 = registerBlock("lgatefive_11",
+            () -> new RightGateBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_LOG).noOcclusion()),
             DecoCreativeModeTab.BAGEKSFENCE_TAB);
 
 
 
     // RIGHT GATES
-    public static final RegistryObject<Block> RGATEONE_2 = registerBlock("rgateone_2",
+    public static final RegistryObject<Block> RGATEONE_11 = registerBlock("rgateone_11",
             () -> new RightGateBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_LOG).noOcclusion()),
             DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RGATETWO_11 = registerBlock("rgatetwo_11",
+            () -> new RightGateBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_LOG).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RGATETHREE_11 = registerBlock("rgatethree_11",
+            () -> new RightGateBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_LOG).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RGATEFOUR_11 = registerBlock("rgatefour_11",
+            () -> new RightGateBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_LOG).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RGATEFIVE_11 = registerBlock("rgatefive_11",
+            () -> new RightGateBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_LOG).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+
 
 
 

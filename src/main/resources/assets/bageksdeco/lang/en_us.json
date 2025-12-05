@@ -122,9 +122,27 @@
   "block.bageksdeco.ang1estatethree_10": "Warped Angled Estate Three Fence 2",
   "block.bageksdeco.ang1estatethree_11": "Whitewash Angled Estate Three Fence 2",
 
-  "block.bageksdeco.lgateone_2": "Left Spruce Gate One",
+  "block.bageksdeco.lgateone_11": "Left Whitewash Gate One",
 
-  "block.bageksdeco.rgateone_2": "Right Spruce Gate One",
+  "block.bageksdeco.lgatetwo_11": "Left Whitewash Gate Two",
+
+  "block.bageksdeco.lgatethree_11": "Left Whitewash Gate Three",
+
+  "block.bageksdeco.lgatefour_11": "Left Whitewash Gate Four",
+
+  "block.bageksdeco.lgatefive_11": "Left Whitewash Gate Five",
+
+
+
+  "block.bageksdeco.rgateone_11": "Right Whitewash Gate One",
+
+  "block.bageksdeco.rgatetwo_11": "Right Whitewash Gate Two",
+
+  "block.bageksdeco.rgatethree_11": "Right Whitewash Gate Three",
+
+  "block.bageksdeco.rgatefour_11": "Right Whitewash Gate Four",
+
+  "block.bageksdeco.rgatefive_11": "Right Whitewash Gate Five",
 
   "block.bageksdeco.english_saddle_swem_1": "Black English SWEM Saddle",
   "block.bageksdeco.english_saddle_swem_2": "Walnut English SWEM Saddle",
