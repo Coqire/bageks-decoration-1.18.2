@@ -5,7 +5,7 @@
 	"ambientocclusion": "false",
 	"textures": {
 		"11": "bageksdeco:fences/gates/gatebag_1",
-		"particle": "minecraft:block/birch_log"
+		"particle": "minecraft:block/acacia_log"
 	},
 	"elements": [
 		{
