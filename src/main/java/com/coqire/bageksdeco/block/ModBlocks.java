@@ -723,7 +723,90 @@ public class ModBlocks {
 
 
 
+    //CROSSCOUNTRY
+    public static final RegistryObject<Block> TROLLTOP_1 = registerBlock("trolltop_1",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> TROLLTOP_2 = registerBlock("trolltop_2",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> TROLLTOP_3 = registerBlock("trolltop_3",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> TROLLTOP_4 = registerBlock("trolltop_4",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> TROLLTOP_5 = registerBlock("trolltop_5",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> TROLLTOP_6 = registerBlock("trolltop_6",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> TROLLTOP_7 = registerBlock("trolltop_7",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> TROLLTOP_8 = registerBlock("trolltop_8",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> TROLLTOP_9 = registerBlock("trolltop_9",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
 
+    public static final RegistryObject<Block> hrolltop_1 = registerBlock("hrolltop_1",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> hrolltop_2 = registerBlock("hrolltop_2",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> hrolltop_3 = registerBlock("hrolltop_3",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> hrolltop_4 = registerBlock("hrolltop_4",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> hrolltop_5 = registerBlock("hrolltop_5",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> hrolltop_6 = registerBlock("hrolltop_6",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> hrolltop_7 = registerBlock("hrolltop_7",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> hrolltop_8 = registerBlock("hrolltop_8",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> hrolltop_9 = registerBlock("hrolltop_9",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+
+    public static final RegistryObject<Block> TRAKEHNER_1 = registerBlock("trakehner_1",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> TRAKEHNER_2 = registerBlock("trakehner_2",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> TRAKEHNER_3 = registerBlock("trakehner_3",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> TRAKEHNER_4 = registerBlock("trakehner_4",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> TRAKEHNER_5 = registerBlock("trakehner_5",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> TRAKEHNER_6 = registerBlock("trakehner_6",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> TRAKEHNER_7 = registerBlock("trakehner_7",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> TRAKEHNER_8 = registerBlock("trakehner_8",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> TRAKEHNER_9 = registerBlock("trakehner_9",
+            () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
 
 
     // ENGLISH SWEM SADDLES
