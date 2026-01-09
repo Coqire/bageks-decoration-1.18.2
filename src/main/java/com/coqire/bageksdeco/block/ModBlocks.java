@@ -780,6 +780,34 @@ public class ModBlocks {
             () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
             DecoCreativeModeTab.BAGEKSFENCE_TAB);
 
+    public static final RegistryObject<Block> FROLLTOP_1 = registerBlock("frolltop_1",
+            () -> new FRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> FROLLTOP_2 = registerBlock("frolltop_2",
+            () -> new FRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> FROLLTOP_3 = registerBlock("frolltop_3",
+            () -> new FRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> FROLLTOP_4 = registerBlock("frolltop_4",
+            () -> new FRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> FROLLTOP_5 = registerBlock("frolltop_5",
+            () -> new FRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> FROLLTOP_6 = registerBlock("frolltop_6",
+            () -> new FRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> FROLLTOP_7 = registerBlock("frolltop_7",
+            () -> new FRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> FROLLTOP_8 = registerBlock("frolltop_8",
+            () -> new FRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> FROLLTOP_9 = registerBlock("frolltop_9",
+            () -> new FRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+
     public static final RegistryObject<Block> TRAKEHNER_1 = registerBlock("trakehner_1",
             () -> new TRolltopBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
             DecoCreativeModeTab.BAGEKSFENCE_TAB);
@@ -823,6 +851,177 @@ public class ModBlocks {
             () -> new EnglishSaddleSWEMBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_WOOL).noOcclusion()),
             DecoCreativeModeTab.BAGEKSFENCE_TAB);
 
+    //HUNTERJUMPS
+    public static final RegistryObject<Block> LHUNTER_1 = registerBlock("lhunter_1",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LHUNTER_2 = registerBlock("lhunter_2",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LHUNTER_3 = registerBlock("lhunter_3",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LHUNTER_4 = registerBlock("lhunter_4",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LHUNTER_5 = registerBlock("lhunter_5",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LHUNTER_6 = registerBlock("lhunter_6",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LHUNTER_7 = registerBlock("lhunter_7",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LHUNTER_8 = registerBlock("lhunter_8",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LHUNTER_9 = registerBlock("lhunter_9",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+
+    public static final RegistryObject<Block> LHUNTER1_1 = registerBlock("lhunter1_1",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LHUNTER1_2 = registerBlock("lhunter1_2",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LHUNTER1_3 = registerBlock("lhunter1_3",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LHUNTER1_4 = registerBlock("lhunter1_4",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LHUNTER1_5 = registerBlock("lhunter1_5",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LHUNTER1_6 = registerBlock("lhunter1_6",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LHUNTER1_7 = registerBlock("lhunter1_7",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LHUNTER1_8 = registerBlock("lhunter1_8",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LHUNTER1_9 = registerBlock("lhunter1_9",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+
+    public static final RegistryObject<Block> RHUNTER_1 = registerBlock("rhunter_1",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RHUNTER_2 = registerBlock("rhunter_2",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RHUNTER_3 = registerBlock("rhunter_3",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RHUNTER_4 = registerBlock("rhunter_4",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RHUNTER_5 = registerBlock("rhunter_5",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RHUNTER_6 = registerBlock("rhunter_6",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RHUNTER_7 = registerBlock("rhunter_7",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RHUNTER_8 = registerBlock("rhunter_8",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RHUNTER_9 = registerBlock("rhunter_9",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+
+    public static final RegistryObject<Block> RHUNTER1_1 = registerBlock("rhunter1_1",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RHUNTER1_2 = registerBlock("rhunter1_2",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RHUNTER1_3 = registerBlock("rhunter1_3",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RHUNTER1_4 = registerBlock("rhunter1_4",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RHUNTER1_5 = registerBlock("rhunter1_5",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RHUNTER1_6 = registerBlock("rhunter1_6",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RHUNTER1_7 = registerBlock("rhunter1_7",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RHUNTER1_8 = registerBlock("rhunter1_8",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RHUNTER1_9 = registerBlock("rhunter1_9",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    
+    
+    //SHOWJUMPS
+    public static final RegistryObject<Block> LSJUMP1_1 = registerBlock("lsjump1_1",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LSJUMP1_2 = registerBlock("lsjump1_2",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LSJUMP1_3 = registerBlock("lsjump1_3",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LSJUMP1_4 = registerBlock("lsjump1_4",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LSJUMP1_5 = registerBlock("lsjump1_5",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LSJUMP1_6 = registerBlock("lsjump1_6",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LSJUMP1_7 = registerBlock("lsjump1_7",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LSJUMP1_8 = registerBlock("lsjump1_8",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> LSJUMP1_9 = registerBlock("lsjump1_9",
+            () -> new LJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    
+    public static final RegistryObject<Block> RSJUMP1_1 = registerBlock("rsjump1_1",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RSJUMP1_2 = registerBlock("rsjump1_2",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RSJUMP1_3 = registerBlock("rsjump1_3",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RSJUMP1_4 = registerBlock("rsjump1_4",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RSJUMP1_5 = registerBlock("rsjump1_5",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RSJUMP1_6 = registerBlock("rsjump1_6",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RSJUMP1_7 = registerBlock("rsjump1_7",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RSJUMP1_8 = registerBlock("rsjump1_8",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    public static final RegistryObject<Block> RSJUMP1_9 = registerBlock("rsjump1_9",
+            () -> new RJumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
+            DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    
     // HITCHING POST WATER
     public static final RegistryObject<Block> HPW_1 = registerBlock("hpw_1",
             () -> new HitchingpostBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
@@ -857,6 +1056,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> HPW_11 = registerBlock("hpw_11",
             () -> new HitchingpostBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),
             DecoCreativeModeTab.BAGEKSFENCE_TAB);
+    
 
     //Sweatscrapers
     public static final RegistryObject<Block> BAGEK_SWEATSCRAPER_1 = registerBlock("bagek_sweatscraper_1",
